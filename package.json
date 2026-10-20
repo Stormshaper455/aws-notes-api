@@ -1,0 +1,14 @@
+{
+  "name": "aws-notes-api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AWS Lambda and DynamoDB handler samples for one note per authenticated user",
+  "type": "module",
+  "scripts": {
+    "check": "node --check get-notes.mjs && node --check save-notes.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3",
+    "@aws-sdk/lib-dynamodb": "^3"
+  }
+}
